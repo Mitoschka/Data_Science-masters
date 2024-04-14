@@ -21,18 +21,14 @@
 ```
 pip install --upgrade pip wheel
 ```
-4. Необходимо установить все зависимости из файла `requirements.txt`. Выполнить это можно при помощи следующей команды:
+4. Необходимо установить все зависимости из файла `requirements.txt`. Выполнить это можно при помощи следующей команды, находясь в корневой дирректории проекта:
 ```
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 ```
 4. Набор данных лежит по следующему пути: `data -> output.csv`
-5. Для запуска проекта необходимо перейти в директорию, в которой лежит исполняемый файл `basic-app -> app.py`. Затем, выполнить следующую команду:
+5. Для запуска проекта необходимо выполнить следующую команду, находясь в корневой дирректории проекта:
 ```
-shiny run
-```
-или
-```
-shiny run --reload --launch-browser /path/to/app.py
+shiny run --reload --launch-browser basic-app/app.py
 ```
 ## Превью приложения
 Пример того, как выглядит приложение ![Application Preview](https://github.com/Mitoschka/Data_Science-masters/blob/main/Preview.png)
