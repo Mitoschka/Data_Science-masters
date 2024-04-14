@@ -34,3 +34,5 @@ shiny run
 ```
 shiny run --reload --launch-browser /path/to/app.py
 ```
+## Превью приложения
+Пример того, как выглядит приложение ![Application Preview](https://github.com/Mitoschka/Data_Science-masters/blob/main/Preview.png)
